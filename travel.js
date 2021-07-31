@@ -7,12 +7,9 @@ fart = new Fart({
 
 
 $(document).ready(function () {
-  document.body.addEventListener("mousemove", function () {
-    fart.play();
-  }, { once: true });
   document.body.addEventListener("click", function () {
     fart.play();
-  }, { once: true });
+  }, { once: false });
 });
 
 
